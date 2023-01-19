@@ -8,4 +8,4 @@ redirect_from:
   - /about.html
 ---
 
-Hello, my name is Quentin Canu, I am a PhD student formalising polyhedral computations in Coq.
+Hello, my name is Quentin Canu, I am a PhD student formalising polyhedral computations in Coq.  
