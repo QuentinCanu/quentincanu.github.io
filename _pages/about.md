@@ -8,4 +8,4 @@ redirect_from:
   - /about.html
 ---
 
-Hello, my name is Quentin Canu, I am a PhD student formalising polyhedral computations in Coq.  
+Hello, my name is Quentin Canu. I am a PhD student formalising polyhedral computations in Coq. My advisors are [Xavier Allamigeon](http://www.cmap.polytechnique.fr/~allamigeon/) and [Pierre-Yves Strub](http://www.strub.nu/)
