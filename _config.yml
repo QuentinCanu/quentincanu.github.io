@@ -82,7 +82,8 @@ analytics:
 author:
   name             : "Quentin Canu"
   avatar           : "profile.jpg"
-  bio              : "Docteur en mathématiques aux interfaces, professeur en lycée"
+  bio              : "Docteur en mathématiques aux interfaces<br>Professeur en lycée"
+  
   location         : "Lycée Marianne"
   employer         :
   pubmed           : 
