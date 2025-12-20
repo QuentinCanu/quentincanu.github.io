@@ -10,4 +10,4 @@ redirect_from:
 
 Hello, my name is Quentin Canu. 
 
-I have a PhD about the formalization of efficient polyhedral computations in Rocq. My advisors are [Xavier Allamigeon](http://www.cmap.polytechnique.fr/~allamigeon/), [Georges Gonthier](https://scholar.google.co.uk/citations?hl=en&user=cbtN84wAAAAJ&view_op=list_works&sortby=pubdate) and [Pierre-Yves Strub](http://www.strub.nu/)
+I have a PhD about the formalization of efficient polyhedral computations in Rocq. My advisors are [Xavier Allamigeon](http://www.cmap.polytechnique.fr/~allamigeon/), [Georges Gonthier](https://scholar.google.co.uk/citations?hl=en&user=cbtN84wAAAAJ&view_op=list_works&sortby=pubdate) and [Pierre-Yves Strub](http://www.strub.nu/).
