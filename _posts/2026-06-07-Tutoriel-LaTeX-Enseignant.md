@@ -7,9 +7,17 @@ LaTeX est une système d'édition de document compliqué à comprendre, et peu d
 
 Cependant, malgré ma confusion, je ne me vois pas utiliser autre chose que LaTeX pour écrire le moindre fichier texte. J'ai écrit ma thèse en LaTeX, mon roman en LaTeX, et l'entièreté de mes cours en LaTeX. Bien que ma façon de l'utiliser est toujours *loin* d'être parfaite, je commence à être satisfait des trucs et astuces que j'ai mis en place pour écrire efficacement avec.
 
-Mon but ici est d'aider le ou la collègue soucieuxe de se lancer dans l'aventure LaTeX de réduire le temps de prise en main afin de pouvoir plus rapidement se consacrer à la rédaction de documents, et de se soucier le moins possible des aspects technico-techniques. Plus que la syntaxe du langage LaTeX, je considère qu'il est encore plus important d'en comprendre la philosophie.
+Mon but ici est d'aider le ou la collègue soucieuxe de se lancer dans l'aventure LaTeX de réduire le temps de prise en main afin de pouvoir plus rapidement se consacrer à la rédaction de documents. Plus qu'un tutoriel exhaustif qui vous apprend la moindre commande, le but est de savoir comprendre l'outil afin de plus facilement l'apprivoiser.
 
 # Introduction
 
-Pour parler de LaTeX, il faut bien sûr introduire [TeX](https://fr.wikipedia.org/wiki/TeX). TeX est un système de composition de documents particulièrement utilisé pour produire des documents scientifique (bien que cela ne soit pas une obligation). le nom *TeX* est à la fois utilisé pour décrire le *langage* et la logiciel de compilation. Le schéma d'utilisation est simple : l'utilisateur écrit un fichier source dans le langage TeX, puis le donne en entrée au logiciel TeX qui se chargera de produire le document final correspondant.
+Pour parler de LaTeX, il faut bien sûr introduire [TeX](https://fr.wikipedia.org/wiki/TeX). TeX est un système de composition de documents particulièrement utilisé pour produire des documents scientifique (bien que cela ne soit pas une obligation). le nom *TeX* est à la fois utilisé pour décrire le *langage* et la logiciel de compilation. Le schéma d'utilisation est simple : l'utilisateur écrit un fichier source dans le langage TeX, puis le donne en entrée au logiciel TeX qui se chargera de produire le document final correspondant. Un exemple de compilateur est `pdftex`, qui produira un pdf.
+
+[LaTeX](https://fr.wikipedia.org/wiki/LaTeX) est extension de TeX, basée sur une amélioration du langage proposant des commandes pour faciliter la rédaction de document. La schéma d'utilisation est par conséquent le même. Le compilateur associé que j'utilise la plupart du temps est `pdflatex`.
+
+Comprendre ce fonctionnement permet de comprendre les différences entre un logiciel comme LaTeX et un logiciel de traitement de texte WYSIWYG comme Word. Un logiciel WYSIWYG (What You See Is What You Get) signifie que ce que vous voyez sur l'écran pendant la rédaction de votre document correspondra au document que vous obtenez. Cela signifie que le moindre choix de forme (taille de police, gras ou italique) devra être un choix délibéré de votre part. 
+
+À l'opposé, LaTeX est un logiciel de balisage. Et c'est l'aspect le plus important. En LaTeX, les choix de forme consistent simplement en des commandes que le compilateur se chargera d'interpréter. Si vous voulez mettre en italique le mot _magie_, il faut simplement faire figurer dans votre texte la commande `\textit{magie}`, et le compilateur fera le travail.
+
+Cela permet de ne pas se concentrer sur la forme mais plutôt sur le fond. En LaTeX, vous vous devez de faire confiance au compilateur, et lui laisser la charge de la mise en page. Votre responsabilité est le contenu de votre texte. 
 
