@@ -7,7 +7,7 @@ LaTeX est une système d'édition de document compliqué à comprendre, et peu d
 
 Cependant, malgré ma confusion, je ne me vois pas utiliser autre chose que LaTeX pour écrire le moindre fichier texte. J'ai écrit ma thèse en LaTeX, mon roman en LaTeX, et l'entièreté de mes cours en LaTeX. Bien que ma façon de l'utiliser est toujours *loin* d'être parfaite, je commence à être satisfait des trucs et astuces que j'ai mis en place pour écrire efficacement avec.
 
-Mon but ici est d'aider le ou la collègue soucieuxe de se lancer dans l'aventure LaTeX de réduire le temps de prise en main afin de pouvoir plus rapidement se consacrer à la rédaction de documents. Plus qu'un tutoriel exhaustif qui vous apprend la moindre commande, le but est de savoir comprendre l'outil afin de plus facilement l'apprivoiser.
+Mon but ici est d'aider le ou la collègue soucieuxe de se lancer dans l'aventure LaTeX de réduire le temps de prise en main afin de pouvoir plus rapidement se consacrer à la rédaction de documents. Plutôt qu'un tutoriel pas à pas pour apprendre les bases de LaTeX, cet article est un retour d'expérience, une lecture personelle de cet outil qui pourront vous aider à prendre ce que je pense être de bonnes habitudes.
 
 # Introduction
 
