@@ -27,4 +27,14 @@ Typiquement, mon exemple était ~~faux~~ incorrect. Pour mettre en italique le m
 
 La morale de ce paragraphe est donc d'insister sur le fond de votre propos, et de laisser le compilateur se charger de la mise en page. Un exemple concret que j'ai pu voir chez certains collègues, et que je faisais **abondamment** avant de me faire réprimer ~~violemment~~ par mes maîtres de thèse, est d'utiliser `\\` à la fin de chaque paragraphe pour sauter une ligne. Cela demande beaucoup trop d'énergie et de discipline, alors que sauter simplement une ligne dans le fichier source fait la même chose. Si le comportement de base de LaTeX ne vous convient pas, comme dans le cas du saut de ligne qui vient aussi commencer le paragraphe suivant avec une tabulation, alors il vous faudra trouver le moyen de modifier ce comportement (dans le préambule sans doute).
 
+Pour la moindre commande de mise en page dont vous vous servez, n'hésitez à vous demander s'il ne faudrait pas mieux faire une commande dédié qui donne du sens à une telle mise en page.
+
+# Organisation du document
+
+Je vous recommande en particulier d'apprendre à organiser un document en mettant l'ensemble des *packages* dont vous devez vous servir dans un document `.sty` dédié. La plupart du temps, j'ai besoin des mêmes *packages*, donc autant écrire `\usepackage{main}` au début de chaque cours qu'une liste exhaustive de ce dont j'ai besoin à chaque instant.
+
+De la même manière, nous professeurs produisons des documents de nature très spécifique : exercices, polycopiés, contrôles... Je vous recommande donc de produire votre propre fichier `.cls` correspondant à chacun de ces cas.
+
+Ainsi, si vous suivez ce genre de conseil, chaque document LaTeX contiendra dans son préambule ce qui lui est spécifique uniquement.
+
 
