@@ -37,4 +37,8 @@ De la même manière, nous professeurs produisons des documents de nature très 
 
 Ainsi, si vous suivez ce genre de conseil, chaque document LaTeX contiendra dans son préambule ce qui lui est spécifique uniquement.
 
+# Les packages utiles pour faire un cours de maths
 
+## Tikz
+
+Comment ne pas commencer ce tour d'horizon des packages 
