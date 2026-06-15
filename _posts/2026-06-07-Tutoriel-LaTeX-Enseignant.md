@@ -37,10 +37,16 @@ De la même manière, nous professeurs produisons des documents de nature très 
 
 # Les packages utiles pour faire un cours de maths
 
-## Tikz
+Pour faire du LaTeX, il faut un jour ou l'autre utiliser des packages : le but n'est pas de réinventer la roue. Je vous recommande pour chacun d'entre eux de bien consulter sa documentation. J'ai moi-même tendance à les lire en diagonale, mais cela ne rend généralement pas service.
+
+## tikz et pgfplots
 
 Comment ne pas commencer ce tour d'horizon des packages utiles aux profs de maths sans mentionner `Tikz`. Je vous recommande le document [Tikz pour l'impatient](http://math.et.info.free.fr/TikZ/index.html), qui vous donne directement les clés pour vous lancer et produire des constructions géométriques en quelques lignes de codes.
 
 Personnellement, j'utilise Tikz majoritairement pour le géométrie, mais aussi pour les tableaux de variations et de signe d'une fonction. Une librairie Tikz toute désignée pour cela est `tkz-tab`, et je vous recommande cet [article](https://zestedesavoir.com/tutoriels/439/des-tableaux-de-variations-et-de-signes-avec-latex/) pour vous en servir le plus vite possible.
 
 Pour le tracé de fonctions, je me sers plutôt de `pgfplots` (dont voici le [manuel](https://mirrors.ircam.fr/pub/CTAN/graphics/pgf/contrib/pgfplots/doc/pgfplots.pdf)). Cet outil permet de distinguer d'un côté le tracé du repère et de l'autre celui de la courbe représentative.
+
+## tabularray
+
+La question des tableaux de valeurs est souvent épineuse en LaTeX, et je trouve personnellement que l'édition de tableaux fait partie d'un ses points faibles. Actuellement, je me sers de `tabularray` (idem, voici son [manuel](https://mirror.ibcp.fr/pub/CTAN/macros/latex/contrib/tabularray/tabularray.pdf)) pour tracer des tableaux simples. Le *package* `booktabs` est souvent recommandé pour des tableaux professionnels (Une seule ligne horizontale pour l'en-tête, pas de ligne verticale...), mais pour des poly de cours, je trouve que ce n'est pas la peine d'aller aussi loin.
