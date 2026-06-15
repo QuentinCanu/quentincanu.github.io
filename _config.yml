@@ -197,7 +197,7 @@ defaults:
       permalink: /posts/:title
       author_profile: true
       read_time: false
-      comments: true
+      comments: false
       share: false
       related: false
   # _pages
