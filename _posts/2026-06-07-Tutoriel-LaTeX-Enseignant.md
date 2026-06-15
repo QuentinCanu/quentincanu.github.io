@@ -1,5 +1,5 @@
 ---
-title : "LaTeX à destination des enseignants"
+title : "LaTeX à destination des enseignants (en maths)"
 ---
 
 
@@ -9,7 +9,7 @@ Cependant, malgré ma confusion, je ne me vois pas utiliser autre chose que LaTe
 
 Mon but ici est d'aider le ou la collègue soucieuxe de se lancer dans l'aventure LaTeX de réduire le temps de prise en main afin de pouvoir plus rapidement se consacrer à la rédaction de documents. Plutôt qu'un tutoriel pas à pas pour apprendre les bases de LaTeX, *cet article est un retour d'expérience, une lecture personelle de cet outil qui pourront vous aider à prendre ce que je pense être de bonnes habitudes.*
 
-Pour suivre les conseils de ce billets, il faut donc avoir installé la version LaTeX de votre choix, et vous assurer qu'elle fonctionne bien et surtout qu'il est possible d'installer de nouveaux *packages*.
+Pour suivre les conseils de ce billet, il faut donc avoir installé la version LaTeX de votre choix, vous assurer qu'elle fonctionne bien et surtout qu'il est possible d'installer de nouveaux *packages*.
 
 # La philosophie de LaTeX
 
@@ -31,14 +31,16 @@ Pour la moindre commande de mise en page dont vous vous servez, n'hésitez à vo
 
 # Organisation du document
 
-Je vous recommande en particulier d'apprendre à organiser un document en mettant l'ensemble des *packages* dont vous devez vous servir dans un document `.sty` dédié. La plupart du temps, j'ai besoin des mêmes *packages*, donc autant écrire `\usepackage{main}` au début de chaque cours qu'une liste exhaustive de ce dont j'ai besoin à chaque instant.
+Je vous recommande en particulier d'apprendre à organiser un document en mettant l'ensemble des *packages* dont vous devez vous servir dans un document `.sty` dédié. La plupart du temps, j'ai besoin des mêmes *packages*, donc autant écrire `\usepackage{main}` au début de chaque cours plutôt qu'une liste exhaustive de ce dont j'ai besoin à chaque instant.
 
-De la même manière, nous professeurs produisons des documents de nature très spécifique : exercices, polycopiés, contrôles... Je vous recommande donc de produire votre propre fichier `.cls` correspondant à chacun de ces cas.
-
-Ainsi, si vous suivez ce genre de conseil, chaque document LaTeX contiendra dans son préambule ce qui lui est spécifique uniquement.
+De la même manière, nous professeurs produisons des documents de nature très spécifique : exercices, polycopiés, contrôles... Je vous recommande donc de produire votre propre fichier `.cls` correspondant à chacun de ces cas. J'ai ainsi un document `poly.cls`, `controle.cls`
 
 # Les packages utiles pour faire un cours de maths
 
 ## Tikz
 
-Comment ne pas commencer ce tour d'horizon des packages 
+Comment ne pas commencer ce tour d'horizon des packages utiles aux profs de maths sans mentionner `Tikz`. Je vous recommande le document [Tikz pour l'impatient](http://math.et.info.free.fr/TikZ/index.html), qui vous donne directement les clés pour vous lancer et produire des constructions géométriques en quelques lignes de codes.
+
+Personnellement, j'utilise Tikz majoritairement pour le géométrie, mais aussi pour les tableaux de variations et de signe d'une fonction. Une librairie Tikz toute désignée pour cela est `tkz-tab`, et je vous recommande cet [article](https://zestedesavoir.com/tutoriels/439/des-tableaux-de-variations-et-de-signes-avec-latex/) pour vous en servir le plus vite possible.
+
+Pour le tracé de fonctions, je me sers plutôt de `pgfplots` (dont voici le [manuel](https://mirrors.ircam.fr/pub/CTAN/graphics/pgf/contrib/pgfplots/doc/pgfplots.pdf)). Cet outil permet de distinguer d'un côté le tracé du repère et de l'autre celui de la courbe représentative.
