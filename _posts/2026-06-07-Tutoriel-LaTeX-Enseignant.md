@@ -62,3 +62,7 @@ Pour vos contrôles, la classe [`exam`](https://math.mit.edu/~psh/exam/examdoc.p
 ## Pythontex
 
 Dans une optique de faire de la génération avancée de documents, comme des sujets avec des valeurs aléatoire, j'ai longtemps cherché des moyens de faire du code directement dans le document. Il existe plusieurs alternative comme LuaLaTeX, mais pour le moment, j'ai jeté mon dévolu sur `pythontex`. Il faudra bien lire sa documentation ([ici](https://ctan.ceremade.dauphine.fr/macros/latex/contrib/pythontex/pythontex.pdf)), notamment concernant son installation. Sans doute le *package* le plus optionnel de cette liste...
+
+# En conclusion...
+
+J'espère que ces quelques idées vous permettront de gagner du temps si vous souhaitez vous lancer dans l'aventure LaTeX. Il me reste beaucoup à apprendre de cet outil, aussi ce qui est dit sur cet article est loin d'être immuable. Nous ne sommes pas à l'abri d'un *package* ou d'une classe inconnue qui révolutionnera ma façon de faire et de penser mes documents LaTeX.
