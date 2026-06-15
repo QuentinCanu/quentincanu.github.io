@@ -10,7 +10,7 @@ locale                   : "fr"
 title                    : "Quentin Canu"
 title_separator          : "-"
 name                     : &name "Quentin Canu"
-description              : &description "I am a PhD student at Ecole Polytechnique (TROPICAL team of CMAP) and Inria Saclay. I am working on mathematical formalizations, especially about formalizing polyhedral computations in Coq."
+description              : &description "I have a PhD on formalizing polyhedral computations in Rocq. I am currently a teacher at Lycée Marianne, Villeneuve-Le-Roi"
 url                      : https://quentincanu.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "QuentinCanu/quentincanu.github.io"
@@ -84,7 +84,7 @@ author:
   avatar           : "profile.jpg"
   bio              : "Docteur en mathématiques aux interfaces<br>Professeur en lycée"
   
-  location         : "Lycée Marianne"
+  location         : "Lycée Marianne, Villeneuve-Le-Roi"
   employer         :
   pubmed           : 
   googlescholar    : 
@@ -92,7 +92,7 @@ author:
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
-  codepen          :
+  codepen          : 
   dribbble         :
   flickr           :
   facebook         :
