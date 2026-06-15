@@ -33,7 +33,7 @@ Pour la moindre commande de mise en page dont vous vous servez, n'hésitez à vo
 
 Je vous recommande en particulier d'apprendre à organiser un document en mettant l'ensemble des *packages* dont vous devez vous servir dans un document `.sty` dédié. La plupart du temps, j'ai besoin des mêmes *packages*, donc autant écrire `\usepackage{main}` au début de chaque cours plutôt qu'une liste exhaustive de ce dont j'ai besoin à chaque instant.
 
-De la même manière, nous professeurs produisons des documents de nature très spécifique : exercices, polycopiés, contrôles... Je vous recommande donc de produire votre propre fichier `.cls` correspondant à chacun de ces cas. J'ai ainsi un document `poly.cls`, `controle.cls`
+De la même manière, nous professeurs produisons des documents de nature très spécifique : exercices, polycopiés, contrôles... Je vous recommande donc de produire votre propre fichier `.cls` correspondant à chacun de ces cas. J'ai ainsi un document `poly.cls`, `controle.cls` et ainsi de suite...
 
 # Les packages utiles pour faire un cours de maths
 
@@ -50,3 +50,15 @@ Pour le tracé de fonctions, je me sers plutôt de `pgfplots` (dont voici le [ma
 ## tabularray
 
 La question des tableaux de valeurs est souvent épineuse en LaTeX, et je trouve personnellement que l'édition de tableaux fait partie d'un ses points faibles. Actuellement, je me sers de `tabularray` (idem, voici son [manuel](https://mirror.ibcp.fr/pub/CTAN/macros/latex/contrib/tabularray/tabularray.pdf)) pour tracer des tableaux simples. Le *package* `booktabs` est souvent recommandé pour des tableaux professionnels (Une seule ligne horizontale pour l'en-tête, pas de ligne verticale...), mais pour des poly de cours, je trouve que ce n'est pas la peine d'aller aussi loin.
+
+## siunitx
+
+Un package pour les collègues de physique, mais qui me sers à faire des sujets ancrés dans le réel. Pour l'affichage de valeurs numériques concrètes (avec unités ou non), j'utilise en permanence les commandes `\qty` et `\num`.
+
+## La classe exam
+
+Pour vos contrôles, la classe [`exam`](https://math.mit.edu/~psh/exam/examdoc.pdf) est idéale. Elle vous permet de gérer facilement les questions, sous-questions, les points, les QCM...
+
+## Pythontex
+
+Dans une optique de faire de la génération avancée de documents, comme des sujets avec des valeurs aléatoire, j'ai longtemps cherché des moyens de faire du code directement dans le document. Il existe plusieurs alternative comme LuaLaTeX, mais pour le moment, j'ai jeté mon dévolu sur `pythontex`. Il faudra bien lire sa documentation ([ici](https://ctan.ceremade.dauphine.fr/macros/latex/contrib/pythontex/pythontex.pdf)), notamment concernant son installation. Sans doute le *package* le plus optionnel de cette liste...
